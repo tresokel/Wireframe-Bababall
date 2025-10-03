@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe Klub Basket</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="p-4">
+
+    <!-- Header -->
+    <header class="wire-section mb-0">
+        <div class="container mx-auto">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <div class="w-10 h-10 wire-avatar"></div>
+                    <div class="w-24 h-6 wire-box"></div>
+                </div>
+                <div class="hidden md:flex items-center space-x-6">
+                    <div class="w-16 h-4 wire-text-line"></div>
+                    <div class="w-12 h-4 wire-text-line"></div>
+                    <div class="w-20 h-4 wire-text-line"></div>
+                    <div class="w-14 h-4 wire-text-line"></div>
+                </div>
+                <div class="hidden md:block w-32 h-10 wire-button">Tombol</div>
+                <div class="md:hidden w-8 h-8 wire-box"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Bagian Hero -->
+        <section class="wire-section h-[80vh] flex items-center justify-center text-center relative">
+            <div class="absolute inset-0 wire-box opacity-50 z-0"></div>
+            <div class="relative z-10 w-full max-w-2xl">
+                <div class="w-full h-12 mx-auto wire-heading"></div>
+                <div class="w-3/4 h-8 mx-auto wire-heading"></div>
+                <div class="mt-4 space-y-2">
+                    <div class="w-full h-4 mx-auto wire-text-line"></div>
+                    <div class="w-5/6 h-4 mx-auto wire-text-line"></div>
+                </div>
+                <div class="mt-8 w-48 h-14 wire-button mx-auto">Tombol Aksi</div>
+            </div>
+        </section>
+
+        <!-- Bagian Tentang Kami -->
+        <section class="wire-section">
+            <div class="container mx-auto">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="w-full h-72 wire-box"></div>
+                    <div>
+                        <div class="w-3/4 h-10 wire-heading"></div>
+                        <div class="mt-4 space-y-2">
+                            <div class="w-full h-4 wire-text-line"></div>
+                            <div class="w-full h-4 wire-text-line"></div>
+                            <div class="w-5/6 h-4 wire-text-line"></div>
+                        </div>
+                         <div class="mt-6 space-y-2">
+                            <div class="w-full h-4 wire-text-line"></div>
+                            <div class="w-medium h-4 wire-text-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Tim -->
+        <section class="wire-section text-center">
+            <div class="container mx-auto">
+                <div class="w-1/2 mx-auto h-10 wire-heading"></div>
+                
+                <!-- Pelatih -->
+                <div class="w-1/3 mx-auto h-8 wire-heading mt-12"></div>
+                <div class="max-w-xs mx-auto mt-4 p-6 border border-gray-300 rounded-lg">
+                    <div class="w-32 h-32 wire-avatar mx-auto"></div>
+                    <div class="w-32 h-6 wire-heading mx-auto mt-4"></div>
+                    <div class="w-24 h-4 wire-text-line medium mx-auto mt-2"></div>
+                    <div class="w-full h-4 wire-text-line mt-4"></div>
+                    <div class="w-full h-4 wire-text-line"></div>
+                </div>
+
+                <!-- Pemain -->
+                <div class="w-1/3 mx-auto h-8 wire-heading mt-16"></div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
+                    <!-- Kartu Pemain -->
+                    <div class="p-6 border border-gray-300 rounded-lg">
+                        <div class="w-24 h-24 wire-avatar mx-auto"></div>
+                        <div class="w-full h-5 wire-heading mt-4"></div>
+                        <div class="w-3/4 h-4 wire-text-line medium mx-auto mt-2"></div>
+                    </div>
+                     <!-- Kartu Pemain -->
+                    <div class="p-6 border border-gray-300 rounded-lg">
+                        <div class="w-24 h-24 wire-avatar mx-auto"></div>
+                        <div class="w-full h-5 wire-heading mt-4"></div>
+                        <div class="w-3/4 h-4 wire-text-line medium mx-auto mt-2"></div>
+                    </div>
+                     <!-- Kartu Pemain -->
+                    <div class="p-6 border border-gray-300 rounded-lg">
+                        <div class="w-24 h-24 wire-avatar mx-auto"></div>
+                        <div class="w-full h-5 wire-heading mt-4"></div>
+                        <div class="w-3/4 h-4 wire-text-line medium mx-auto mt-2"></div>
+                    </div>
+                     <!-- Kartu Pemain -->
+                    <div class="p-6 border border-gray-300 rounded-lg">
+                        <div class="w-24 h-24 wire-avatar mx-auto"></div>
+                        <div class="w-full h-5 wire-heading mt-4"></div>
+                        <div class="w-3/4 h-4 wire-text-line medium mx-auto mt-2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Jadwal -->
+        <section class="wire-section">
+            <div class="container mx-auto">
+                <div class="w-1/2 mx-auto h-10 wire-heading text-center"></div>
+                <div class="mt-8 w-full h-64 wire-box p-4">
+                    <!-- Header Tabel -->
+                    <div class="flex justify-between items-center pb-2 border-b border-gray-400">
+                        <div class="w-1/4 h-5 wire-heading"></div>
+                        <div class="w-1/4 h-5 wire-heading"></div>
+                        <div class="w-1/4 h-5 wire-heading hidden sm:block"></div>
+                        <div class="w-1/4 h-5 wire-heading"></div>
+                    </div>
+                    <!-- Baris Tabel -->
+                    <div class="flex justify-between items-center mt-4 pb-2 border-b border-gray-300">
+                        <div class="w-1/4 h-4 wire-text-line"></div>
+                        <div class="w-1/4 h-4 wire-text-line"></div>
+                        <div class="w-1/4 h-4 wire-text-line hidden sm:block"></div>
+                        <div class="w-1/4 h-4 wire-text-line"></div>
+                    </div>
+                     <!-- Baris Tabel -->
+                    <div class="flex justify-between items-center mt-4 pb-2 border-b border-gray-300">
+                        <div class="w-1/4 h-4 wire-text-line"></div>
+                        <div class="w-1/4 h-4 wire-text-line"></div>
+                        <div class="w-1/4 h-4 wire-text-line hidden sm:block"></div>
+                        <div class="w-1/4 h-4 wire-text-line"></div>
+                    </div>
+                     <!-- Baris Tabel -->
+                    <div class="flex justify-between items-center mt-4">
+                        <div class="w-1/4 h-4 wire-text-line"></div>
+                        <div class="w-1/4 h-4 wire-text-line"></div>
+                        <div class="w-1/4 h-4 wire-text-line hidden sm:block"></div>
+                        <div class="w-1/4 h-4 wire-text-line"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Berita -->
+        <section class="wire-section">
+            <div class="container mx-auto">
+                <div class="w-1/2 mx-auto h-10 wire-heading text-center"></div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+                    <!-- Kartu Berita -->
+                    <div class="border border-gray-300 rounded-lg">
+                        <div class="w-full h-48 wire-box"></div>
+                        <div class="p-6">
+                            <div class="w-full h-6 wire-heading"></div>
+                            <div class="mt-4 space-y-2">
+                                <div class="w-full h-4 wire-text-line"></div>
+                                <div class="w-5/6 h-4 wire-text-line"></div>
+                            </div>
+                            <div class="mt-4 w-1/3 h-4 wire-text-line"></div>
+                        </div>
+                    </div>
+                     <!-- Kartu Berita -->
+                    <div class="border border-gray-300 rounded-lg">
+                        <div class="w-full h-48 wire-box"></div>
+                        <div class="p-6">
+                            <div class="w-full h-6 wire-heading"></div>
+                             <div class="mt-4 space-y-2">
+                                <div class="w-full h-4 wire-text-line"></div>
+                                <div class="w-5/6 h-4 wire-text-line"></div>
+                            </div>
+                            <div class="mt-4 w-1/3 h-4 wire-text-line"></div>
+                        </div>
+                    </div>
+                     <!-- Kartu Berita -->
+                    <div class="border border-gray-300 rounded-lg">
+                        <div class="w-full h-48 wire-box"></div>
+                        <div class="p-6">
+                            <div class="w-full h-6 wire-heading"></div>
+                             <div class="mt-4 space-y-2">
+                                <div class="w-full h-4 wire-text-line"></div>
+                                <div class="w-5/6 h-4 wire-text-line"></div>
+                            </div>
+                            <div class="mt-4 w-1/3 h-4 wire-text-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Kontak -->
+        <section class="wire-section text-center">
+            <div class="container mx-auto max-w-xl">
+                <div class="w-3/4 mx-auto h-10 wire-heading"></div>
+                 <div class="mt-4 space-y-2">
+                    <div class="w-full h-4 wire-text-line"></div>
+                    <div class="w-5/6 h-4 wire-text-line mx-auto"></div>
+                </div>
+                <div class="mt-8 space-y-4">
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div class="w-full h-12 wire-box"></div>
+                        <div class="w-full h-12 wire-box"></div>
+                    </div>
+                    <div class="w-full h-32 wire-box"></div>
+                    <div class="w-full h-14 wire-button">Tombol Aksi</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="wire-section">
+        <div class="container mx-auto">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <div class="w-1/2 h-6 wire-heading"></div>
+                    <div class="mt-4 w-5/6 h-4 wire-text-line"></div>
+                    <div class="w-3/4 h-4 wire-text-line"></div>
+                </div>
+                 <div>
+                    <div class="w-1/2 h-6 wire-heading"></div>
+                    <div class="mt-4 space-y-2">
+                       <div class="w-1/3 h-4 wire-text-line"></div>
+                       <div class="w-1/3 h-4 wire-text-line"></div>
+                       <div class="w-1/3 h-4 wire-text-line"></div>
+                    </div>
+                </div>
+                 <div>
+                    <div class="w-1/2 h-6 wire-heading"></div>
+                    <div class="mt-4 flex space-x-4">
+                        <div class="w-8 h-8 wire-avatar"></div>
+                        <div class="w-8 h-8 wire-avatar"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-6 border-t border-gray-300 text-center">
+                 <div class="w-1/2 h-4 wire-text-line mx-auto"></div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
